@@ -3,22 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #eeaf61;
+}
 
 h1{
-    color: salmon;
+    color:  #ee5d6c;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.4rem;
     margin-top: 4%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 p{
     color: salmon;
+    font-size: 1.4rem;
 }
 #filter-wrapper, #search-wrapper{
     display: flex;
     margin: 2%;
     padding: 2%;
     background-color: rgb(137, 93, 179);
+
+}
+
+input, select{
+    padding: 6px;
+    margin: 2px 6px 2px 0;
+    border-radius: 3px;
+    border: 1px solid rgb(137, 93, 179);
 }
 
 button{
@@ -42,15 +55,15 @@ button:hover{
     flex-wrap: wrap; 
     gap: 40px; 
     justify-content: center;
-    background-color: lightgoldenrodyellow;
+    background-color: #eeaf61;
 }
 
 .single-card { 
     background-color: #fff; 
     border: 1px solid #ccc; 
     border-radius: 8px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    width: 200px; /* Breite der Produktkarte */ padding: 16px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    width: 280px; /* Breite der Produktkarte */ padding: 16px; 
     text-align: center; 
     transition: transform 0.2s;
     display: flex;
@@ -78,6 +91,10 @@ button:hover{
 .single-card h2{
     font-size: 16px; 
     /* color: #333; */
-    color: salmon;
+    color: #6a0d83;
     
+}
+
+#productCards {
+   
 }
